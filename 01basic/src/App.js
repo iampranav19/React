@@ -6,12 +6,14 @@ import Product from './component/Product';
 import Table from './component/Table';
 import NestedItr from './component/NestedItr';
 import OneWayBinding from './component/OneWayBinding';
+import Nasa from './component/Nasa';
 
 function App() {
   return (
     <>
-    <OneWayBinding></OneWayBinding>
+    <Nasa></Nasa>
     {/* Comment 
+    <OneWayBinding></OneWayBinding>
     <NestedItr></NestedItr>
     <Table></Table>
     <Product></Product>
