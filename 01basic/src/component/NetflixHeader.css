@@ -1,0 +1,37 @@
+/* Header Container */
+.netflix-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.75);
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  top: 0;
+}
+
+/* Netflix Logo */
+.header-logo img {
+  width: 120px;
+}
+
+/* Navigation and Sign In Button */
+.header-nav {
+  display: flex;
+  align-items: center;
+}
+
+.sign-in-button {
+  padding: 8px 16px;
+  font-size: 16px;
+  background-color: #e50914;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.sign-in-button:hover {
+  background-color: #f40612;
+}
