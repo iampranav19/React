@@ -29,6 +29,20 @@ function NestedItr() {
        )
      }
     </ol>
+    <h2>Select the Product</h2>
+      <select name="" id="">
+        {
+        menu.map((item, index) => (
+          <optgroup key={index} label={item.Category}>
+            {
+            item.Product.map((sub, idx) => (
+              <option key={idx} value={sub}>
+                {sub}
+              </option>
+            ))}
+          </optgroup>
+        ))}
+      </select>
      </>
   )
 }
