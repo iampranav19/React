@@ -46,7 +46,7 @@ function Nasa() {
             }
           </tbody>
         </table>
-      )}
+      )} 
     </>
   );
 }
