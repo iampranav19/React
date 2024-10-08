@@ -30,7 +30,7 @@ function Shopping() {
           <select name="" id="">
             {
               category.map(e=>
-                <option value="" key={e}>{e}</option>
+                <option value="" key={e.id}>{e}</option>
               )
             }
           </select>

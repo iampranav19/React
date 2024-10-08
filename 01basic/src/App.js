@@ -8,12 +8,14 @@ import NestedItr from './component/NestedItr';
 import OneWayBinding from './component/OneWayBinding';
 import Nasa from './component/Nasa';
 import Shopping from './component/Shopping';
+import TwoWayBind from './component/TwoWayBind';
 
 function App() {
   return (
     <>
-    <Shopping></Shopping>
+    <TwoWayBind></TwoWayBind>
     {/* Comment
+    <Shopping></Shopping>
     <Nasa></Nasa> 
     <OneWayBinding></OneWayBinding>
     <NestedItr></NestedItr>
